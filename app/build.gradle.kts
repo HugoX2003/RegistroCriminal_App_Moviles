@@ -49,6 +49,7 @@ dependencies {
     // Slides: Fragment KTX y ViewModel
     implementation(libs.androidx.fragment.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.fragment)
 
     // Slides: una sola dependencia de JUnit
     testImplementation(libs.junit)
