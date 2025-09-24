@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../Documentos-Code/RegistroCriminal/app/build.gradle.kts">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/../../../Documentos-Code/RegistroCriminal/app/build.gradle.kts" />
+              <option name="updatedContent" value="// ...existing code...&#10;    implementation(&quot;androidx.fragment:fragment-ktx:1.6.2&quot;)&#10;    implementation(&quot;androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0&quot;)&#10;// ...existing code..." />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

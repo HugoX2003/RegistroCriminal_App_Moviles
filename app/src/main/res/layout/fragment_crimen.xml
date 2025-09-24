@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentacion.CrimenFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etiqueta_titulo_crimen" />
+
+    <EditText
+        android:id="@+id/txtTituloCrimen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pista_titulo_crimen"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        android:text="@string/etiqueta_detalle_crimen" />
+
+    <Button
+        android:id="@+id/btnFechaCrimen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/chkCrimenResuelto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/etiqueta_crimen_resuelto" />
+</LinearLayout>
